@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sivanand - Web Developer</title>
+  <link rel="stylesheet" href="portfolio.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mea+Culpa&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="sidebar">
+    <div class="profile-photo"></div>
+    <nav class="nav-menu">
+      <a href="#about" class="nav-item ">ABOUT</a>
+      <a href="#experience" class="nav-item">EXPERIENCE</a>
+      <a href="#education" class="nav-item">EDUCATION</a>
+      <a href="#skills" class="nav-item">SKILLS</a>
+      <a href="#interests" class="nav-item">INTERESTS</a>
+      <a href="#awards" class="nav-item">AWARDS</a>
+    </nav>
+  </div>
+
+  <div class="main-content" id="main">
+    
+
+    <section id="about">
+      <div class="header">
+      <h1 class="name">
+        <span class="first-name">SIVANAND</span>
+        <span class="last-name">MP</span>
+      </h1>
+      <div class="contact-info">
+        673014 · HILITE BUSINESS PARK · +91 9447628475 · 
+        <a href="mailto:sivanandmp18@gmail.com" class="email">sivanandmp18@gmail.com</a>
+      </div>
+    </div>
+
+      <div class="description">
+        PASSIONATE AND CREATIVE WEB DEVELOPER WITH A STRONG FOUNDATION IN FRONT-END TECHNOLOGIES, EAGER TO BUILD SEAMLESS AND USER-FRIENDLY DIGITAL EXPERIENCES.
+      </div>
+      <div class="social-links">
+      <i class="fa-brands fa-square-facebook"></i>
+      <i class="fa-brands fa-square-twitter"></i>
+      <i class="fa-brands fa-linkedin"></i>
+      <i class="fa-brands fa-square-github"></i>
+    </div>
+
+    </section>
+
+    <section id="experience">
+      <h2 class="name20">EXPERIENCE</h2>
+      <p class="name4"><strong>JUNIOR WEB DEVELOPER</strong></p>
+      <ul>
+        <p class="paro1">DEVELOPED RESPONSIVE WEBCITES USING [ HTML, CSS, AND JAVASCRIPT ].</p>
+        <p>GRAPHICS DESIGN , VFX EDITING , ANIMATION , AI GENERATING</p>
+      </ul>
+    </section>
+
+    <section id="education">
+      <h2 class="name30">EDUCATION</h2>
+      <p class="paro5">PLUSE TWO , SSLC , GRAPHICS DESIGNING , WEB DEVELOPMENT</p>
+      <p>HOTEL MANAGEMENT , ACCOUTING , CYBER SECURITY</p>
+    </section>
+
+    <section id="skills">
+      <ul>
+      <h2 class="name40">SKILLS</h2>
+      <h3 class="my2">PROGRAMMING LANGUAGES & TOOLS</h3>
+      <i class="fa-brands fa-html5"></i>
+      <i class="fa-brands fa-css3-alt"></i>
+      <i class="fa-brands fa-js"></i>
+      <li class="my">GRAPHICS DESIGN , WEBSITE DEVELOPMENT </li>
+      <li> VFX EDITING ,PHOTO EDITING , DRAWING </li>
+      
+    <li>MOBILE-FIRST, RESPONSIVE DESIGN</li>
+    <li>CROSS BROWSER TESTING & DEBUGGING</li>
+    <li>CROSS FUNCTIONAL TEAMS</li>
+    <li>AGILE DEVELOPMENT & SCRUM</li>
+  </ul>
+    </section>
+
+    <section id="interests">
+      <h2 class="name50">INTERESTS</h2>
+      <p class="paro20">TECH BLOGGING, SINGING, GRAPHICS DESIGN, TRAVELING, GAMING, PHOTOGRAPHY</p>
+      <p class="paro30">I am a passionate individual with a love for creativity and expression. My interests span across Tech Blogging, where I share insights on the latest in technology, and Singing, which allows me to explore my artistic side. I have a strong eye for aesthetics through Graphics Design and enjoy telling visual stories via Photography.
+I am an avid Traveller, always seeking new perspectives, and I enjoy immersive experiences like Gaming. These diverse interests not only enrich my life but also fuel my creativity and problem-solving skills, helping me grow both personally and professionally.
+</p>
+    </section>
+
+    <section id="awards">
+      <h2 class="name60">AWARDS & CERTIFICATIONS</h2>
+      <ul>
+        <li class="distence10">CERTIFIED FRONT-END DEVELOPER – FREECODECAMP</li>
+        <li>BEST PROJECT AWARD – WEB DESIGN EXPO 2023</li>
+        <li>FOOD SEFTY CERTIFIED - GRAPHICS DESIGN CERTIFICATIONS </li>
+        <li>SAMSKRIT LANGUAGE AWARD - DRAWING CERTIFICATIONS</li>
+      </ul>
+    </section>
+  
+  </div>
+  <script>
+    // Smooth scroll when clicking nav links
+    document.querySelectorAll('.nav-menu a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
+    });
+  </script>
+  
+
+</body>
+</html>

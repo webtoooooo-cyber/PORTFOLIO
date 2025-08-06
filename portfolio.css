@@ -1,0 +1,339 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            background-image: url('vintage-grunge-blue-concrete-texture-studio-wall-background-with-vignette.jpg');
+            display: flex;
+            min-height: 100vh;
+        }
+        html {
+      scroll-behavior: smooth;
+      
+    }
+    body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('vintage-grunge-blue-concrete-texture-studio-wall-background-with-vignette.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    min-height: 100vh;
+    }
+
+    section {
+      margin-bottom: 300px;
+      scroll-margin-bottom: 0px;
+        }
+
+        .sidebar {
+            width: 250px;
+            background-color: #000000;
+            /* background: linear-gradient(135deg, #c17b5a, #a66548); */
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+        }
+
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-image: url('');
+            background-size: cover;
+            background-position: center;
+            margin-bottom: 40px;
+            border: 4px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .nav-menu {
+            width: 100%;
+        }
+
+        .nav-item {
+            display: block;
+            padding: 15px 0;
+            text-align: center;
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 14px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            transition: background-color 0.3s ease;
+        }
+
+        .nav-item:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .nav-item.active {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .main-content {
+            flex: 1;
+            background-color: white;
+            padding: 60px 80px;
+            .bebas-neue-regular {
+             font-family: "Bebas Neue", sans-serif;
+             font-weight: 400;
+             font-style: normal;
+}
+
+        }
+        
+        .header {
+            margin-bottom: 50px;
+        }
+        
+        .name {
+            font-size: 48px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+            margin-top: 100px;
+        }
+
+        .name .first-name {
+            color: #333;
+            font-size: 80px;
+        }
+
+        .name .last-name {
+            color: #333;
+            font-size: 80px;
+        }
+
+        .contact-info {
+            font-size: 20px;
+            color: #666;
+            margin-bottom: 25px;
+            line-height: 1.5;
+        }
+
+        .email {
+            color: #6681cc;
+            text-decoration: none;
+        }
+
+        .email:hover {
+            text-decoration: underline;
+        }
+
+        .description {
+            font-size: 16px;
+            line-height: 1.8;
+            color: #666;
+            margin-bottom: 40px;
+            max-width: 800px;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 15px;
+        }
+
+        .social-link {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #555;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .social-link:hover {
+            background-color: #c17b5a;
+        }
+
+        .social-link.facebook {
+            background-color: #3b5998;
+        }
+
+        .social-link.twitter {
+            background-color: #1da1f2;
+        }
+
+        .social-link.linkedin {
+            background-color: #0077b5;
+        }
+
+        .social-link.github {
+            background-color: #333;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                flex-direction: column;
+            }
+            
+            .sidebar {
+                width: 100%;
+                padding: 20px;
+            }
+            
+            .profile-photo {
+                width: 100px;
+                height: 100px;
+                margin-bottom: 20px;
+            }
+            
+            .main-content {
+                padding: 40px 30px;
+            }
+            
+            .name {
+                font-size: 36px;
+            }
+        }
+        .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url('WhatsApp%20Image%202025-08-05%20at%2023.22.42.jpeg');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 40px;
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    margin-top: 110px;
+}
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto; /* Optional scroll for sidebar only if content is tall */
+}
+.main-content {
+  margin-left: 250px; /* same as sidebar width */
+  height: 100vh;
+  overflow-y: auto;
+}
+body {
+  overflow: hidden;
+}
+html {
+  scroll-behavior: smooth;
+}
+.nav-item {
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.nav-item:target,
+.nav-item:focus,
+.nav-item:active {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.fa-square-facebook{
+    font-size: 50px;
+}
+.fa-square-twitter{
+    font-size: 50px;
+    
+}
+.fa-linkedin{
+    font-size: 50px;
+}
+.fa-square-github{
+    font-size: 50px;
+}
+.name20{
+    font-size: 40px;
+    color: #3d3a3a;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 750px;
+
+}
+.paro1{
+    margin-top: 20px;
+
+ }
+ .name30{
+    font-size: 40px;
+    color:#3d3a3a;
+    font-weight: bold;
+    margin-top: 800px;
+
+ }
+ .name40{
+    font-size: 40px;
+    color:#3d3a3a;
+    margin-top: 800px;
+
+ }
+ .name50{
+    font-size: 40px;
+    color:#3d3a3a;
+    margin-top: 800px;
+ }
+ .paro30{
+    margin-top: 20px;
+    height: 30px;
+ }
+ .paro20{
+    margin-top: 20px;
+ }
+ .paro5{
+    margin-top: 20px
+    ;
+ }
+ .name4{
+    font-size: 20px;
+ }
+ .distence10{
+    margin-top: 10px;
+ }
+ .name60{
+    font-size: 40px;
+    color: #3d3a3a;
+    margin-top: 800px;
+ }
+ .name{
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+ }
+ body {
+  margin: 0;
+  padding: 0;
+  background-image: url('/Users/siva2004/Desktop/developer/portfolio/WhatsApp Image 2025-08-05 at 23.22.42.jpeg'); /* Replace with your image file name */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+}
+.my{
+    margin-top: 70px;
+}
+.my2{
+    margin-top: 30px;
+}
+.fa-html5{
+    font-size: 50px;
+    margin-top: 10px;
+}
+.fa-css3-alt{
+    font-size: 50px;
+     margin-top: 10px;
+}
+.fa-js{
+    font-size:  45px;
+    margin-top: 10px;
+}
